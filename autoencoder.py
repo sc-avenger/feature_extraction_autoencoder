@@ -113,7 +113,7 @@ x_train = x_train.reshape((len(x_train), np.prod(x_train.shape[1:])))
 x_test = x_test.reshape((len(x_test), np.prod(x_test.shape[1:])))
 
 
-encodingDimension = [512]
+encodingDimension = [256]
 labelLength = [200]
 for x in encodingDimension:
 	for y  in labelLength:
