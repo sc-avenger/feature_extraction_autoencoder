@@ -1,0 +1,32 @@
+
+256:
+taking 200 samples and doing svm only accuracy - 49.15
+doing with our algo - 72
+
+
+100 samples and doing SVM only accuracy - 25.89
+100 samples with our algo - 61.03
+
+
+128:
+49.15
+49.65
+
+128:
+
+SVM only-
+(200,256,49.15)
+(100,256,61.03)
+(50,256,25.5)
+(150,256,41.24)
+
+
+
+
+Our algorithm-
+(200,256,72)
+(100,256,61.03)
+(50,256,42.33)
+(150,256,69.31)
+(150,784,70.71)
+(150,128,55)
